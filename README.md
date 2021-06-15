@@ -25,7 +25,7 @@ Now you just have to write the script onces and can be deployed multiple times.
 
 ### Ansible architecture
 
-Image in the screenshot
+(./architecture.png "architecture of ansible")
 
 ### Playbook 
 
@@ -64,7 +64,3 @@ web3.machine
 **databaseserver**
 
 db1.machine
-
-### Working of Ansible
-
-Image in the screenshot
