@@ -1,0 +1,14 @@
+--- 
+- name: ngnix install & start services
+  hosts: ansible_client 
+  remote_user: root  
+  become: true   
+  tasks:                       
+    - name: install ngnix
+      yum:                        
+          name: ngnix
+          state: latest             
+    - name: start ngnix
+      service:                   
+              name: ngnix
+              state: started         
