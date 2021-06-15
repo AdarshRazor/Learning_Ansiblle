@@ -53,7 +53,7 @@ Image in the screenshot
 
 ### Inventory 
 
-webserver
+**webserver**
 
 web1.machine   (names or ip of the machines).
 
@@ -61,7 +61,7 @@ web2.machine
 
 web3.machine
 
-databaseserver
+**databaseserver**
 
 db1.machine
 
