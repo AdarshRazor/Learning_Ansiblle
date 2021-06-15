@@ -12,7 +12,7 @@ It does the following things:
 
 Imagine being in a company as system admin. and you have to configure some servers with the same environment. It's easy to do, but what if the number of server increases and the same task must be repeated multiple times. Moreover, humans are prone to make errors. 
 
-Here comes the **Amsible** comes to rescue, which is written in code once for the installation and deployed multple times.
+Here comes the **Ansible** comes to rescue, which is written in code once for the installation and deployed multple times.
 Now you just have to write the script onces and can be deployed multiple times.
 
 ### Where Ansible can be used ?
