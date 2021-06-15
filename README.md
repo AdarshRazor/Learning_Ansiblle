@@ -62,6 +62,7 @@ web2.machine
 web3.machine
 
 databaseserver
+
 db1.machine
 
 ### Working of Ansible
