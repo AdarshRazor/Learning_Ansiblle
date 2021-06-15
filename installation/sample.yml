@@ -1,0 +1,18 @@
+--- # denotes the starting of YAML file
+- name: sample book     # name to playbook
+  hosts: ansible_client   # host systems mention the group name 
+  remote_user: root    # client user 
+  become: true    # become root
+  tasks:                          # tasks
+    - name: install httpd         # first task name
+      yum:                          # command
+          name: httpd               # installing httpd packet
+          state: latest             # action to be performed
+    - name: run httpd             # second task running apache service  
+      service:                      # action is server
+              name: httpd             # name of the service
+              state: started          # state must be started
+    - name: create content        # third task
+      copy:                         # action to be performed
+           content: "Congrats on installing ansible"    # content 
+           dest: /var/www/html/index.html               # destination where the file will be copied
