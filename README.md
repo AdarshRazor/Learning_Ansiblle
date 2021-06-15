@@ -8,14 +8,14 @@ It does the following things:
 2. Automates Orchestration - Brings together a no. of application decides in which order these are execited.
 3. Deployment - Automates deployment of an application
 
-### Why Ansible
+### Why Ansible ?
 
 Imagine being in a company as system admin. and you have to configure some servers with the same environment. It's easy to do, but what if the number of server increases and the same task must be repeated multiple times. Moreover, humans are prone to make errors. 
 
 Here comes the **Amsible** comes to rescue, which is written in code once for the installation and deployed multple times.
 Now you just have to write the script onces and can be deployed multiple times.
 
-### Where Ansible can be used
+### Where Ansible can be used ?
 
 1. IT Automation - Instructions are written to automate the IT professional's work
 2. Configuration Managment - Consistency of all systems in the infrastructure is maitained.
@@ -53,9 +53,9 @@ Image in the screenshot
 
 ### Inventory 
 
-**webserver**
+**webserver** (names or ip of the machines)
 
-web1.machine   (names or ip of the machines).
+web1.machine   
 
 web2.machine
 
