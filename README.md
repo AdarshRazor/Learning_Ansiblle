@@ -25,7 +25,7 @@ Now you just have to write the script onces and can be deployed multiple times.
 
 ### Ansible architecture
 
-[Images](https://github.com/AdarshRazor/Learning_Ansiblle/blob/main/architecture.png "architecture of ansible")
+![Images](https://github.com/AdarshRazor/Learning_Ansiblle/blob/main/architecture.png "architecture of ansible")
 
 ### Playbook 
 
